@@ -45,7 +45,7 @@ mp.add_hook("on_load", 10, function ()
     if (url:find("pdf://") == 1) then
         local convert = "convert" --TODO find ImageMagick's `convert` if not in PATH
         local input  = string.gsub(url, "pdf://", "")
-        local output =  "/tmp/mpv-pdf/" .. string.gsub(input, "/", "%%")..".jpg"
+        local output =  "/tmp/mpv-pdf/" .. string.gsub(input, "/", "|")..".jpg"
         exec({"mkdir", "-p", "/tmp/mpv-pdf/"}) --TODO make tmp directory configurable
         
         --convert pdf page to png
