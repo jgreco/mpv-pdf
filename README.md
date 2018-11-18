@@ -5,15 +5,16 @@ A script for the MPV media player that allows you to view PDFs by way of [ImageM
 - MacOS, Linux, \*BSD, etc **(Windows is NOT currently supported, but PRs are welcome)**
 - [ImageMagick](https://www.imagemagick.org/)
 - [pdfinfo](https://linux.die.net/man/1/pdfinfo)
+
 *(Install ImageMagick and `pdfinfo` using your package manager.   `convert`, provided by ImageMagick, should be in your $PATH.)*
 
 
 ## Installation
     make install
 or
-	cp pdf_hook.lua ~/.config/mpv/scripts/
-	cp pdf_hook-worker.lua ~/.config/mpv/scripts/pdf_hook-worker-1.lua
-	cp pdf_hook-worker.lua ~/.config/mpv/scripts/pdf_hook-worker-2.lua
+    cp pdf_hook.lua ~/.config/mpv/scripts/
+    cp pdf_hook-worker.lua ~/.config/mpv/scripts/pdf_hook-worker-1.lua
+    cp pdf_hook-worker.lua ~/.config/mpv/scripts/pdf_hook-worker-2.lua
     [...]
 
 **NOTE:**
