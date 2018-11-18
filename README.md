@@ -12,6 +12,7 @@ A script for the MPV media player that allows you to view PDFs by way of [ImageM
 ## Installation
     make install
 or
+
     cp pdf_hook.lua ~/.config/mpv/scripts/
     cp pdf_hook-worker.lua ~/.config/mpv/scripts/pdf_hook-worker-1.lua
     cp pdf_hook-worker.lua ~/.config/mpv/scripts/pdf_hook-worker-2.lua
